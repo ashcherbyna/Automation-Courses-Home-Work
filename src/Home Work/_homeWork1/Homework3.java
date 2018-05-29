@@ -1,4 +1,4 @@
-public class homeWork3 {
+public class Homework3 {
     public static void main(String[] args) {
         byte X = 1;
         byte Y = 2;

@@ -1,4 +1,4 @@
-public class homeWork1 {
+public class Homework1 {
     public static void main(String[] args) {
         int x = 50;
         float y = 25.f;
