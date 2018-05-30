@@ -12,7 +12,7 @@ public class Homework3 {
         double firstVector = ( X / vectorLenth );
         double secondVector = ( Y / vectorLenth );
         double thirdVector = ( Z / vectorLenth );
-        //просто конкатенация, без  new String!
+
         return new String("Unit Vector of numbers (" +X+", "+Y+", "+Z+") is (" +firstVector+", "+secondVector+", "+thirdVector+")");
 
 
