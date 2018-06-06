@@ -8,13 +8,13 @@ public class Homework3_4 {
         Scanner fioScan = new Scanner(System.in);
         String fio = fioScan.nextLine();
 
-        System.out.println("Fill your Mobile Phone(Example +380123456789:");
+        System.out.println("Fill your Mobile Phone(Example +380123456789):");
         Scanner phoneScan = new Scanner(System.in);
         String phone = phoneScan.nextLine();
 
         System.out.println("Fill your email:");
         Scanner emailScan = new Scanner(System.in);
-        String email = fioScan.nextLine();
+        String email = emailScan.nextLine();
 
         checkFio(fio);
         checkPhone(phone);
