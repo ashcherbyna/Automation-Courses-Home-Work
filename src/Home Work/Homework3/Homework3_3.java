@@ -22,7 +22,8 @@ public class Homework3_3{
         return anArray;
     }
 
-    private static int random(){
+    private static int random() {
+        //так с Random не нужно работать. Нужно создать статическое поле и пререиспользовать.
         Random random = new Random();
         int randomNum = random.nextInt();
         return randomNum;
