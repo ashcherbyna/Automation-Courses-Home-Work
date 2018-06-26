@@ -16,7 +16,9 @@ public class Point {
     }
 
     public static float vectorLength(Point newPoint){
-        return (float) Math.sqrt((oldPointX-newPoint.getX())*2 + (oldPointY-newPoint.getY())*2);
+        float dX = (oldPointX-newPoint.getX());
+        float dY = (oldPointY-newPoint.getY());
+        return (float) Math.sqrt(dX*dX +dY*dY);
     }
 
     public int getX(){
