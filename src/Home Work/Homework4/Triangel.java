@@ -1,28 +1,11 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Triangelwork {
+ public class Triangel{
 
-
-    private static class Point{
-        public int x;
-        public int y;
-
-        Point(int x, int y){
-            this.x = x;
-            this.y = y;
-        }
-
-        private float distance(Point f){
-
-            return (float) Math.sqrt((x-f.x)*(x-f.x)+(y-f.y)*(y-f.y));
-        }
-    }
-
-    private static class Triangel{
-        public Point a;
-        public Point b;
-        public Point c;
+        private Point a;
+        private Point b;
+        private Point c;
 
         private float perimetr(){
             return a.distance(b)+ b.distance(c) + c.distance(a);
@@ -56,7 +39,6 @@ public class Triangelwork {
             return String.format("[a[%d,%d], b[%d,%d], c[%d,%d]", a.x, a.y, b.x, b.y, c.x, c.y);
         }
 
-    }
 
     public static void main(String[] args) {
         Scanner choose = new Scanner(System.in);
@@ -92,5 +74,5 @@ public class Triangelwork {
 
 
     }
-}
 
+ }
